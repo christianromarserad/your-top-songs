@@ -8,3 +8,5 @@ const obj = {
   prop1: 1,
   pop2: 2
 };
+
+const hi = 'asd';
