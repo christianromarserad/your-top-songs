@@ -1,0 +1,19 @@
+{
+  "name": "your-top-songs",
+  "version": "1.0.0",
+  "description": "your top songs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianromarserad/your-top-songs.git"
+  },
+  "author": "Serad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianromarserad/your-top-songs/issues"
+  },
+  "homepage": "https://github.com/christianromarserad/your-top-songs#readme"
+}
