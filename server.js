@@ -1,12 +1,11 @@
-const hey = 'hey';
+const express = require('express');
+const setUpRoutes = require('./SetUpRoutes');
 
-function hoy() {
-  console.log('hoy');
-}
+const app = express();
+const port = process.env.PORT || 3002;
 
-const obj = {
-  prop1: 1,
-  pop2: 2
-};
+setUpRoutes(app);
 
-const hi = 'asd';
+app.listen(port, () => {
+  console.log(`listening to port ${port}`);
+});
