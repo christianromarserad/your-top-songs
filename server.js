@@ -1,5 +1,5 @@
 const express = require('express');
-const setUpRoutes = require('./SetUpRoutes');
+const setUpRoutes = require('./setUpMiddleware');
 
 const app = express();
 const port = process.env.PORT || 3002;
